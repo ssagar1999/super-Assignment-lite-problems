@@ -1,6 +1,11 @@
 # Intro to JS Array Methods 
 
 
+
+<a target="_blank" href="https://ssagar1999.github.io/super-Assignment-lite-solutions/">View fully fledged project :)</a> # You r supposed to create this.
+
+
+
 In this repo, we will be working through increasing knowledge in JS array methods by refactoring a Black Excellence Reference app.
 
 
