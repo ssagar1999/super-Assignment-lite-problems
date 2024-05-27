@@ -94,3 +94,35 @@ const startApp = () => {
   document.querySelector('#btnRow').addEventListener('click', buttonFilter);
 }
 startApp();
+
+// Imports:
+
+// card, tableRow, referenceList, renderToDom: Importing necessary modules and data.
+// renderCards Function:
+
+// Purpose: To render a list of cards to the DOM.
+// Method: Currently sets a placeholder HTML string, meant to iterate over array and create cards.
+// toggleCart Function:
+
+// Purpose: To handle adding/removing items to/from the cart when a button is clicked.
+// Method: Checks if the clicked element's ID includes "fav-btn" and logs a message.
+// search Function:
+
+// Purpose: To handle search input and filter items accordingly.
+// Method: Converts the search input to lowercase and logs it (intended to filter items).
+// buttonFilter Function:
+
+// Purpose: To handle various filter button clicks and filter/sort items accordingly.
+// Method: Logs different messages or renders a table based on the button clicked.
+// cartTotal Function:
+
+// Purpose: To calculate and display the total price of items in the cart.
+// Method: Sets the cart total to 0 and updates the DOM (needs implementation to sum cart items).
+// productList Function:
+
+// Purpose: To return a list of products for rendering.
+// Method: Returns a sample product list (intended to be replaced with actual data).
+// startApp Function:
+
+// Purpose: Initializes the application by setting up event listeners and rendering initial data.
+// Method: Renders cards, sets the cart total, and adds event listeners to the relevant elements.
